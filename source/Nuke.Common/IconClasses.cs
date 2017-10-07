@@ -7,6 +7,7 @@ using System.Linq;
 using Nuke.Common;
 using Nuke.Common.Git;
 using Nuke.Common.IO;
+using Nuke.Common.ProjectModel;
 using Nuke.Common.Tools.CoverallsNet;
 using Nuke.Common.Tools.DocFx;
 using Nuke.Common.Tools.DotCover;
@@ -45,6 +46,7 @@ using Nuke.Core.Execution;
 [assembly: IconClass(typeof(NunitTasks), "bug2")]
 [assembly: IconClass(typeof(OpenCoverTasks), "shield2")]
 [assembly: IconClass(typeof(PaketTasks), "box")]
+[assembly: IconClass(typeof(ProjectModelTasks), "tree7")]
 [assembly: IconClass(typeof(ReportGeneratorTasks), "pie-chart4")]
 [assembly: IconClass(typeof(SerializationTasks), "transmission2")]
 [assembly: IconClass(typeof(TestCloudTasks), "bug2")]
